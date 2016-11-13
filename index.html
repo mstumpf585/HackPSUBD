@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- les go-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+	<script src="AccuAPI.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="\HackPSU-2016\stylesheet.css">
+    
+	<title>
+	Welcome
+	</title>
+</head>
+    
+<body>
+    
+<h1>Weather</h1>
+    <div class = "container"> 
+        <div class = "row">
+            <div class= "col-md-3 col-centered">
+			
+                <img id="current_image" src= "HackPSU-2016\Sunny.png" style = "width:300px; height:300px">
+			
+                <p id="hr0-current">Current</p>
+                <p id="hr0-precip">Precipitation</p>
+            </div>
+
+            <div class= "col-md-3 col-centered">
+                <img id="today_image" src="HackPSU-2016\Cloudy.png" style = "width:300px; height:300px">
+                <p id="hr1-high">High</p>
+                <p id="hr1-low">Low</p>
+                <p id="hr1-time">Times</p>
+            </div>
+            
+            <div class= "col-md-3 col-centered">
+                <img id="tomorrow_image" src= "HackPSU-2016\Sunny.png" style = "width:300px; height:300px">
+                <p id="hr2-high">High</p>
+                <p id="hr2-low">Low</p>
+                <p id="hr2-time">Times</p>
+            </div>
+
+            <div class= "col-md-3 col-centered">
+                <img id="2day_image" src="HackPSU-2016\Cloudy.png" style = "width:300px; height:300px">
+                <p id="hr3-high">High</p>
+                <p id="hr3-low">Low</p>
+                <p id="hr3-time">Times</p>
+            </div>            
+        </div>
+    </div>
+<h3>API Return</h3>
+	<button id="weatherButton">Display Data</button>
+<h1><span id="info">---</span></h1>
+</body>
+</html>
